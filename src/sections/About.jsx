@@ -19,7 +19,7 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hi, I&apos;m Ahmed Gamal Alztary</p>
             <p className="subtext">
-              Over the last 2 years, I developed my frontend
+              Over the last 2 years, I developed my Frontend and Shopify
               skills to deliver dynamic and software and web applications.
             </p>
           </div>
@@ -56,7 +56,7 @@ const About = () => {
             />
             <Card
               style={{ rotate: "20deg", top: "10%", left: "38%" }}
-              text="SRP"
+              text="liquid code"
               containerRef={grid2Container}
             />
             <Card

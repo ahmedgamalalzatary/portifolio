@@ -28,15 +28,14 @@ const Contact = () => {
     setIsLoading(true);
 
     try {
-      console.log("From submitted:", formData);
       await emailjs.send(
         "service_79b0nyj",
         "template_17us8im",
         {
           from_name: formData.name,
-          to_name: "Ali",
+          to_name: "Ahmed",
           from_email: formData.email,
-          to_email: "AliSanatiDev@gmail.com",
+          to_email: "ahmedalzatary716@gmail.com",
           message: formData.message,
         },
         "pn-Bw_mS1_QQdofuV"
@@ -62,10 +61,26 @@ const Contact = () => {
       {showAlert && <Alert type={alertType} text={alertMessage} />}
       <div className="flex flex-col items-center justify-center max-w-md p-5 mx-auto border border-white/10 rounded-2xl bg-primary">
         <div className="flex flex-col items-start w-full gap-5 mb-10">
-          <h2 className="text-heading">Let's Talk</h2>
+          <h2 className="text-heading">Let&apos;s Talk</h2>
           <p className="font-normal text-neutral-400">
-            Whether you're loking to build a new website, improve your existing
-            platform, or bring a unique project to life, I'm here to help
+            Whether you&apos;re looking to build a new website, improve your existing
+            platform, or bring a unique project to life, I&apos;m here to help. You
+            can reach me via{" "}
+            <a
+              href="https://wa.me/201554459196"
+              target="_blank"
+              rel="noreferrer"
+              className="text-white hover:underline"
+            >
+              WhatsApp
+            </a>{" "}
+            or{" "}
+            <a
+              href="mailto:ahmedalzatary716@gmail.com"
+              className="text-white hover:underline"
+            >
+              Mail
+            </a>
           </p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
@@ -78,7 +93,7 @@ const Contact = () => {
               name="name"
               type="text"
               className="field-input field-input-focus"
-              placeholder="John Doe"
+              placeholder="your name"
               autoComplete="name"
               value={formData.name}
               onChange={handleChange}
@@ -94,7 +109,7 @@ const Contact = () => {
               name="email"
               type="email"
               className="field-input field-input-focus"
-              placeholder="JohnDoe@email.com"
+              placeholder="your email"
               autoComplete="email"
               value={formData.email}
               onChange={handleChange}

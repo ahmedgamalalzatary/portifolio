@@ -39,10 +39,32 @@ const ProjectDetails = ({
                 />
               ))}
             </div>
-            <a className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation">
-              View Project{" "}
-              <img src="assets/arrow-up.svg" className="size-4" href={href} />
-            </a>
+            <div className="flex gap-4">
+              {href.includes("||") ? (
+                href.split("||").map((link, idx) => (
+                  <a
+                    key={idx}
+                    href={link.trim()}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation"
+                  >
+                    {link.includes("github.com") ? "View Code" : "Live Demo"}{" "}
+                    <img src="assets/arrow-up.svg" className="size-4" />
+                  </a>
+                ))
+              ) : href ? (
+                <a
+                  href={href}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation"
+                >
+                    View Code{" "}
+                  <img src="assets/arrow-up.svg" className="size-4" />
+                </a>
+              ) : null}
+            </div>
           </div>
         </div>
       </motion.div>

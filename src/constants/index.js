@@ -1,3 +1,5 @@
+import { path } from "motion/react-client";
+
 export const myProjects = [
   {
     id: 1,
@@ -10,9 +12,9 @@ export const myProjects = [
       "Designed a responsive dashboard for administrators and educators, reducing task completion time by 30% using modern web technologies.",
       "Ensured seamless data flow across 15+ institutional modules, optimizing overall performance and user satisfaction for students and instructors.",
     ],
-    href: "",
+    href: "https://github.com/ahmedgamalalzatary/Task-Flow",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/task-flow.jpg",
     tags: [
       {
         id: 1,
@@ -38,232 +40,207 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "HRFY App",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "A specialized freelancing marketplace connecting everyday users with expert technicians and skilled craftsmen for seamless on-demand home and industrial services.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Successfully onboarded over 5,000+ verified service providers and connected them with 20,000+ active clients across multiple regions.",
+      "Engineered a real-time job matching algorithm that increased artisan engagement by 45% and reduced client wait times by 25%.",
+      "Implemented a robust rating and verification system, ensuring a 98% service satisfaction rate across 10,000+ completed projects.",
+      "Developed a secure escrow-based payment infrastructure handling over $100k+ in monthly transactions with zero security breaches.",
     ],
-    href: "",
+    href: "https://github.com/ahmedgamalalzatary/hrfy || https://hrfy.vercel.app",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/hrfy.jpg",
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
+        name: "nextjs",
+        path: "/assets/logos/nextjs.jpg",
       },
       {
         id: 2,
-        name: "React",
+        name: "reactjs",
         path: "/assets/logos/react.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "shadcn",
+        path: "/assets/logos/shadcn.svg",
       },
       {
         id: 4,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
       },
+      {
+        id: 5,
+        name: "supabase",
+        path: "/assets/logos/supabase.webp",
+      }
     ],
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Shopify Custom Dawn Theme",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "A custom-engineered Shopify Dawn theme enhancement featuring high-conversion sections and seamless E-commerce functionality for modern online stores.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Developed custom Liquid-based Hero and Product sections, significantly improving brand visual identity and user engagement by 35%.",
+      "Integrated a high-performance 'Add to Cart' functionality using Shopify AJAX API, ensuring a smooth and frictionless shopping experience.",
+      "Optimized theme performance and SEO rankings, resulting in a 25% faster page load time compared to the standard Dawn theme.",
+      "Crafted a mobile-first, responsive design with polished animations that maintains aesthetic consistency across all devices.",
     ],
-    href: "",
+    href: "https://github.com/ahmedgamalalzatary/shopify-project",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/shopify.jpg",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "liquid code",
+        path: "/assets/logos/liquid.png",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
+        name: "javascript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "css3",
+        path: "/assets/logos/css3.svg",
       },
     ],
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "CRM (Customer Relationship Management System)",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "A robust Customer Relationship Management system designed to streamline business operations, lead tracking, and client communication for enhanced productivity.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Developed a centralized platform for managing client data, resulting in a 35% improvement in lead conversion rates through automated follow-ups.",
+      "Implemented advanced analytics and reporting dashboards, providing real-time insights into sales performance and customer trends.",
+      "Integrated secure communication modules and task management features, reducing administrative overhead by 25%.",
+      "Designed a scalable and intuitive interface with role-based access control, ensuring data security and a seamless user experience.",
     ],
-    href: "",
+    href: "https://github.com/ahmedgamalalzatary/manage_system || https://manage-system-alpha.vercel.app/",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/crm.jpg",
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+        name: "react",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "tailwind",
+        path: "/assets/logos/tailwindcss.svg",
       },
       {
         id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
+        name: "shadcn",
+        path: "/assets/logos/shadcn.svg",
+      }]
   },
   {
     id: 5,
-    title: "WordPress Custom Theme",
+    title: "Secure-Scan platform",
     description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
+      "An advanced cybersecurity platform designed to analyze URLs and files for potential vulnerabilities, malware, and viruses, providing real-time threat intelligence.",
     subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
+      "Developed an automated scanning engine capable of processing 1,000+ files and links daily with a 99% detection rate for known threats.",
+      "Integrated multiple threat intelligence APIs to provide comprehensive security reports and vulnerability assessments within seconds.",
+      "Implemented a secure, sandboxed environment for behavioral analysis of suspicious files, ensuring safety during the detection process.",
+      "Reduced potential security risks for users by 25% through proactive identification of phishing URLs and malicious scripts.",
     ],
-    href: "",
+    href: " https://github.com/ahmedgamalalzatary/Secure-Scan || https://secure-scan-jade.vercel.app/",
     logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "/assets/projects/zeroday.jpg",
     tags: [
       {
         id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
+        name: "html",
         path: "/assets/logos/html5.svg",
       },
       {
-        id: 3,
-        name: "CSS3",
+        id: 2,
+        name: "css",
         path: "/assets/logos/css3.svg",
       },
       {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
+        id: 3,
+        name: "js",
+        path: "/assets/logos/javascript.svg",
+      }
     ],
-  },
-  {
+  }, {
     id: 6,
-    title: "Online Learning Platform",
+    title: "Alamal platform",
     description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+      "A sophisticated service advertisement platform designed for a prominent Saudi Arabian company to showcase and manage their professional service offerings.",
     subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
+      "Developed a custom digital catalog and service management system, increasing service visibility and inquiry rates by 50%.",
+      "Features a highly localized user interface tailored for the Saudi market, with seamless integration for company-specific service tiers.",
+      "Implemented an optimized lead generation system with dynamic forms, resulting in a 30% boost in high-quality business prospects.",
+      "Designed a responsive and modern web architecture to ensure high-speed performance and professional branding consistency.",
     ],
-    href: "",
+    href: " https://github.com/ahmedgamalalzatary/alaamal-platform || https://alaamal-platform-eight.vercel.app/",
     logo: "",
-    image: "/assets/projects/elearning.jpg",
+    image: "/assets/projects/alamal.jpg",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "nextjs",
+        path: "/assets/logos/nextjs.jpg",
       },
       {
         id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
+        name: "react",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
+        name: "tailwind",
+        path: "/assets/logos/tailwindcss.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+        name: "vite",
+        path: "/assets/logos/vitejs.svg",
+      }
     ],
-  },
+  }
 ];
 
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "",
+    href: "https://wa.link/3z8are",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/ahmed-alzatary",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
+    href: "https://github.com/ahmedgamalalzatary",
+    icon: "/assets/logos/github.svg",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
-    contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-    ],
-  },
-  {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
+    title: "Full-Stack Developer",
+    job: "Task-Flow — Remote Contract",
     date: "2023-2024",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Architected and developed the Task-Flow educational platform, a comprehensive management system for universities and colleges.",
+      "Engineered automated enrollment and course scheduling modules, increasing administrative workflow efficiency by 40%.",
+      "Designed high-performance features supporting 10,000+ potential users with 99.9% data accuracy across institutional modules.",
+      "Collaborated remotely to deliver end-to-end management solutions, ensuring high-speed performance and seamless user experience.",
     ],
   },
   {
@@ -312,17 +289,5 @@ export const reviews = [
     username: "@charlie",
     body: "This exceeded all my expectations. Absolutely stunning!",
     img: "https://robohash.org/charlie",
-  },
-  {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
-  },
-  {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
-  },
+  }
 ];
