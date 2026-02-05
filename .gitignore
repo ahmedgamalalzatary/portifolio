@@ -21,6 +21,10 @@ SESSION_MASTER_SUMMARY.md
 .vscode
 
 
-
 .gemini/
 gha-creds-*.json
+
+# Env files
+.env
+.env.local
+.env.*.local
